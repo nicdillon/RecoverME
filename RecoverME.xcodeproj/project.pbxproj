@@ -16,6 +16,7 @@
 		AC64D95822681B0E00DB7E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64D95622681B0E00DB7E0F /* LaunchScreen.storyboard */; };
 		AC64D96322681B0E00DB7E0F /* RecoverMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96222681B0E00DB7E0F /* RecoverMETests.swift */; };
 		AC64D96E22681B0E00DB7E0F /* RecoverMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */; };
+		AC64D97E2268284E00DB7E0F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D97D2268284E00DB7E0F /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AC64D96922681B0E00DB7E0F /* RecoverMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoverMEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverMEUITests.swift; sourceTree = "<group>"; };
 		AC64D96F22681B0E00DB7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecoverME.entitlements; sourceTree = "<group>"; };
+		AC64D97D2268284E00DB7E0F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC64D97E2268284E00DB7E0F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,7 @@
 				AC64D96122681B0E00DB7E0F /* RecoverMETests */,
 				AC64D96C22681B0E00DB7E0F /* RecoverMEUITests */,
 				AC64D94722681B0D00DB7E0F /* Products */,
+				AC64D97C2268284E00DB7E0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +106,7 @@
 		AC64D94822681B0D00DB7E0F /* RecoverME */ = {
 			isa = PBXGroup;
 			children = (
+				AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */,
 				AC64D94922681B0D00DB7E0F /* AppDelegate.swift */,
 				AC64D94B22681B0D00DB7E0F /* RootViewController.swift */,
 				AC64D94D22681B0D00DB7E0F /* DataViewController.swift */,
@@ -129,6 +135,14 @@
 				AC64D96F22681B0E00DB7E0F /* Info.plist */,
 			);
 			path = RecoverMEUITests;
+			sourceTree = "<group>";
+		};
+		AC64D97C2268284E00DB7E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D97D2268284E00DB7E0F /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +213,11 @@
 				TargetAttributes = {
 					AC64D94522681B0D00DB7E0F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					AC64D95D22681B0E00DB7E0F = {
 						CreatedOnToolsVersion = 10.1;
@@ -440,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RecoverME/RecoverME.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B65FUD2N9K;
 				INFOPLIST_FILE = RecoverME/Info.plist;
@@ -458,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RecoverME/RecoverME.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B65FUD2N9K;
 				INFOPLIST_FILE = RecoverME/Info.plist;
