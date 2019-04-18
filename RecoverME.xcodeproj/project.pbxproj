@@ -17,6 +17,9 @@
 		AC64D96322681B0E00DB7E0F /* RecoverMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96222681B0E00DB7E0F /* RecoverMETests.swift */; };
 		AC64D96E22681B0E00DB7E0F /* RecoverMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */; };
 		AC64D97E2268284E00DB7E0F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D97D2268284E00DB7E0F /* HealthKit.framework */; };
+		AC64D98022682DCC00DB7E0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */; };
+		AC64D982226831DF00DB7E0F /* Recovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D981226831DF00DB7E0F /* Recovery.swift */; };
+		AC64D98422692B0A00DB7E0F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D98322692B0A00DB7E0F /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		AC64D96F22681B0E00DB7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecoverME.entitlements; sourceTree = "<group>"; };
 		AC64D97D2268284E00DB7E0F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC64D981226831DF00DB7E0F /* Recovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recovery.swift; sourceTree = "<group>"; };
+		AC64D98322692B0A00DB7E0F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +115,12 @@
 				AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */,
 				AC64D94922681B0D00DB7E0F /* AppDelegate.swift */,
 				AC64D94B22681B0D00DB7E0F /* RootViewController.swift */,
+				AC64D98322692B0A00DB7E0F /* Workout.swift */,
 				AC64D94D22681B0D00DB7E0F /* DataViewController.swift */,
 				AC64D94F22681B0D00DB7E0F /* ModelController.swift */,
 				AC64D95122681B0D00DB7E0F /* Main.storyboard */,
+				AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */,
+				AC64D981226831DF00DB7E0F /* Recovery.swift */,
 				AC64D95422681B0E00DB7E0F /* Assets.xcassets */,
 				AC64D95622681B0E00DB7E0F /* LaunchScreen.storyboard */,
 				AC64D95922681B0E00DB7E0F /* Info.plist */,
@@ -281,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC64D982226831DF00DB7E0F /* Recovery.swift in Sources */,
+				AC64D98022682DCC00DB7E0F /* HomeViewController.swift in Sources */,
+				AC64D98422692B0A00DB7E0F /* Workout.swift in Sources */,
 				AC64D94C22681B0D00DB7E0F /* RootViewController.swift in Sources */,
 				AC64D95022681B0D00DB7E0F /* ModelController.swift in Sources */,
 				AC64D94E22681B0D00DB7E0F /* DataViewController.swift in Sources */,
