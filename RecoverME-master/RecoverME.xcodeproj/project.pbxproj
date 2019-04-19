@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC64D94A22681B0D00DB7E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D94922681B0D00DB7E0F /* AppDelegate.swift */; };
+		AC64D94C22681B0D00DB7E0F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D94B22681B0D00DB7E0F /* RootViewController.swift */; };
+		AC64D94E22681B0D00DB7E0F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D94D22681B0D00DB7E0F /* DataViewController.swift */; };
+		AC64D95022681B0D00DB7E0F /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D94F22681B0D00DB7E0F /* ModelController.swift */; };
+		AC64D95322681B0D00DB7E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64D95122681B0D00DB7E0F /* Main.storyboard */; };
+		AC64D95522681B0E00DB7E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC64D95422681B0E00DB7E0F /* Assets.xcassets */; };
+		AC64D95822681B0E00DB7E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64D95622681B0E00DB7E0F /* LaunchScreen.storyboard */; };
+		AC64D96322681B0E00DB7E0F /* RecoverMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96222681B0E00DB7E0F /* RecoverMETests.swift */; };
+		AC64D96E22681B0E00DB7E0F /* RecoverMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */; };
+		AC64D97E2268284E00DB7E0F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64D97D2268284E00DB7E0F /* HealthKit.framework */; };
+		AC64D98022682DCC00DB7E0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */; };
+		AC64D982226831DF00DB7E0F /* Recovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D981226831DF00DB7E0F /* Recovery.swift */; };
+		AC64D98422692B0A00DB7E0F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64D98322692B0A00DB7E0F /* Workout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC64D95F22681B0E00DB7E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64D93E22681B0D00DB7E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC64D94522681B0D00DB7E0F;
+			remoteInfo = RecoverME;
+		};
+		AC64D96A22681B0E00DB7E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC64D93E22681B0D00DB7E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC64D94522681B0D00DB7E0F;
+			remoteInfo = RecoverME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC64D94622681B0D00DB7E0F /* RecoverME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecoverME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D94922681B0D00DB7E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC64D94B22681B0D00DB7E0F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		AC64D94D22681B0D00DB7E0F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		AC64D94F22681B0D00DB7E0F /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		AC64D95222681B0D00DB7E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC64D95422681B0E00DB7E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC64D95722681B0E00DB7E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC64D95922681B0E00DB7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC64D95E22681B0E00DB7E0F /* RecoverMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoverMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D96222681B0E00DB7E0F /* RecoverMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverMETests.swift; sourceTree = "<group>"; };
+		AC64D96422681B0E00DB7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC64D96922681B0E00DB7E0F /* RecoverMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecoverMEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverMEUITests.swift; sourceTree = "<group>"; };
+		AC64D96F22681B0E00DB7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecoverME.entitlements; sourceTree = "<group>"; };
+		AC64D97D2268284E00DB7E0F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC64D981226831DF00DB7E0F /* Recovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recovery.swift; sourceTree = "<group>"; };
+		AC64D98322692B0A00DB7E0F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC64D94322681B0D00DB7E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D97E2268284E00DB7E0F /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D95B22681B0E00DB7E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D96622681B0E00DB7E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC64D93D22681B0D00DB7E0F = {
+			isa = PBXGroup;
+			children = (
+				AC64D94822681B0D00DB7E0F /* RecoverME */,
+				AC64D96122681B0E00DB7E0F /* RecoverMETests */,
+				AC64D96C22681B0E00DB7E0F /* RecoverMEUITests */,
+				AC64D94722681B0D00DB7E0F /* Products */,
+				AC64D97C2268284E00DB7E0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC64D94722681B0D00DB7E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D94622681B0D00DB7E0F /* RecoverME.app */,
+				AC64D95E22681B0E00DB7E0F /* RecoverMETests.xctest */,
+				AC64D96922681B0E00DB7E0F /* RecoverMEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC64D94822681B0D00DB7E0F /* RecoverME */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D97B2268284D00DB7E0F /* RecoverME.entitlements */,
+				AC64D94922681B0D00DB7E0F /* AppDelegate.swift */,
+				AC64D94B22681B0D00DB7E0F /* RootViewController.swift */,
+				AC64D98322692B0A00DB7E0F /* Workout.swift */,
+				AC64D94D22681B0D00DB7E0F /* DataViewController.swift */,
+				AC64D94F22681B0D00DB7E0F /* ModelController.swift */,
+				AC64D95122681B0D00DB7E0F /* Main.storyboard */,
+				AC64D97F22682DCC00DB7E0F /* HomeViewController.swift */,
+				AC64D981226831DF00DB7E0F /* Recovery.swift */,
+				AC64D95422681B0E00DB7E0F /* Assets.xcassets */,
+				AC64D95622681B0E00DB7E0F /* LaunchScreen.storyboard */,
+				AC64D95922681B0E00DB7E0F /* Info.plist */,
+			);
+			path = RecoverME;
+			sourceTree = "<group>";
+		};
+		AC64D96122681B0E00DB7E0F /* RecoverMETests */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D96222681B0E00DB7E0F /* RecoverMETests.swift */,
+				AC64D96422681B0E00DB7E0F /* Info.plist */,
+			);
+			path = RecoverMETests;
+			sourceTree = "<group>";
+		};
+		AC64D96C22681B0E00DB7E0F /* RecoverMEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D96D22681B0E00DB7E0F /* RecoverMEUITests.swift */,
+				AC64D96F22681B0E00DB7E0F /* Info.plist */,
+			);
+			path = RecoverMEUITests;
+			sourceTree = "<group>";
+		};
+		AC64D97C2268284E00DB7E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D97D2268284E00DB7E0F /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC64D94522681B0D00DB7E0F /* RecoverME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC64D97222681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverME" */;
+			buildPhases = (
+				AC64D94222681B0D00DB7E0F /* Sources */,
+				AC64D94322681B0D00DB7E0F /* Frameworks */,
+				AC64D94422681B0D00DB7E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecoverME;
+			productName = RecoverME;
+			productReference = AC64D94622681B0D00DB7E0F /* RecoverME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC64D95D22681B0E00DB7E0F /* RecoverMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC64D97522681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverMETests" */;
+			buildPhases = (
+				AC64D95A22681B0E00DB7E0F /* Sources */,
+				AC64D95B22681B0E00DB7E0F /* Frameworks */,
+				AC64D95C22681B0E00DB7E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC64D96022681B0E00DB7E0F /* PBXTargetDependency */,
+			);
+			name = RecoverMETests;
+			productName = RecoverMETests;
+			productReference = AC64D95E22681B0E00DB7E0F /* RecoverMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC64D96822681B0E00DB7E0F /* RecoverMEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC64D97822681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverMEUITests" */;
+			buildPhases = (
+				AC64D96522681B0E00DB7E0F /* Sources */,
+				AC64D96622681B0E00DB7E0F /* Frameworks */,
+				AC64D96722681B0E00DB7E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC64D96B22681B0E00DB7E0F /* PBXTargetDependency */,
+			);
+			name = RecoverMEUITests;
+			productName = RecoverMEUITests;
+			productReference = AC64D96922681B0E00DB7E0F /* RecoverMEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC64D93E22681B0D00DB7E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nic Dillon";
+				TargetAttributes = {
+					AC64D94522681B0D00DB7E0F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					AC64D95D22681B0E00DB7E0F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC64D94522681B0D00DB7E0F;
+					};
+					AC64D96822681B0E00DB7E0F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC64D94522681B0D00DB7E0F;
+					};
+				};
+			};
+			buildConfigurationList = AC64D94122681B0D00DB7E0F /* Build configuration list for PBXProject "RecoverME" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC64D93D22681B0D00DB7E0F;
+			productRefGroup = AC64D94722681B0D00DB7E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC64D94522681B0D00DB7E0F /* RecoverME */,
+				AC64D95D22681B0E00DB7E0F /* RecoverMETests */,
+				AC64D96822681B0E00DB7E0F /* RecoverMEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC64D94422681B0D00DB7E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D95822681B0E00DB7E0F /* LaunchScreen.storyboard in Resources */,
+				AC64D95522681B0E00DB7E0F /* Assets.xcassets in Resources */,
+				AC64D95322681B0D00DB7E0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D95C22681B0E00DB7E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D96722681B0E00DB7E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC64D94222681B0D00DB7E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D982226831DF00DB7E0F /* Recovery.swift in Sources */,
+				AC64D98022682DCC00DB7E0F /* HomeViewController.swift in Sources */,
+				AC64D98422692B0A00DB7E0F /* Workout.swift in Sources */,
+				AC64D94C22681B0D00DB7E0F /* RootViewController.swift in Sources */,
+				AC64D95022681B0D00DB7E0F /* ModelController.swift in Sources */,
+				AC64D94E22681B0D00DB7E0F /* DataViewController.swift in Sources */,
+				AC64D94A22681B0D00DB7E0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D95A22681B0E00DB7E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D96322681B0E00DB7E0F /* RecoverMETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC64D96522681B0E00DB7E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64D96E22681B0E00DB7E0F /* RecoverMEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC64D96022681B0E00DB7E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC64D94522681B0D00DB7E0F /* RecoverME */;
+			targetProxy = AC64D95F22681B0E00DB7E0F /* PBXContainerItemProxy */;
+		};
+		AC64D96B22681B0E00DB7E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC64D94522681B0D00DB7E0F /* RecoverME */;
+			targetProxy = AC64D96A22681B0E00DB7E0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC64D95122681B0D00DB7E0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC64D95222681B0D00DB7E0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC64D95622681B0E00DB7E0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC64D95722681B0E00DB7E0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC64D97022681B0E00DB7E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC64D97122681B0E00DB7E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC64D97322681B0E00DB7E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RecoverME/RecoverME.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC64D97422681B0E00DB7E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RecoverME/RecoverME.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC64D97622681B0E00DB7E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecoverME.app/RecoverME";
+			};
+			name = Debug;
+		};
+		AC64D97722681B0E00DB7E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecoverME.app/RecoverME";
+			};
+			name = Release;
+		};
+		AC64D97922681B0E00DB7E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecoverME;
+			};
+			name = Debug;
+		};
+		AC64D97A22681B0E00DB7E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B65FUD2N9K;
+				INFOPLIST_FILE = RecoverMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CSC312.RecoverMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecoverME;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC64D94122681B0D00DB7E0F /* Build configuration list for PBXProject "RecoverME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D97022681B0E00DB7E0F /* Debug */,
+				AC64D97122681B0E00DB7E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC64D97222681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D97322681B0E00DB7E0F /* Debug */,
+				AC64D97422681B0E00DB7E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC64D97522681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D97622681B0E00DB7E0F /* Debug */,
+				AC64D97722681B0E00DB7E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC64D97822681B0E00DB7E0F /* Build configuration list for PBXNativeTarget "RecoverMEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64D97922681B0E00DB7E0F /* Debug */,
+				AC64D97A22681B0E00DB7E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC64D93E22681B0D00DB7E0F /* Project object */;
+}
