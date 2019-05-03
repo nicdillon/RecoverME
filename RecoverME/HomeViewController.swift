@@ -17,6 +17,7 @@ class User {
     var date = 0
     var email: String?
     var password: String?
+    
     //MARK: Actions
     
     
